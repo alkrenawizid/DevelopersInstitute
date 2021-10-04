@@ -1,0 +1,26 @@
+mark {
+    background-color: yellow;
+    color: black;
+  }
+.mediaimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 6px solid orange;
+}
+table, th, td {
+    border:1px solid black;
+  }
+.diff {
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+}
+.lionimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 6px solid orange;
+}
