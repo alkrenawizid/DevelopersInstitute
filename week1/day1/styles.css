@@ -1,6 +1,13 @@
 div p{
-    background-color: aquamarine;
+    box-sizing: border-box;
+    display: block;
     border: 1px green;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 15px;
+    margin: block end 10px;
+    background-color:#C0F7D7; 
+    border-color:#27C76B; 
+    border-style:ridge; 
+    padding: 30px
 }
