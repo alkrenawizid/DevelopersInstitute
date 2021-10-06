@@ -1,0 +1,56 @@
+.sectiongridarea{
+    border: 1px solid black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.2fr;
+    grid-template-rows: 0.5fr 1.5fr 1fr 1fr 0.8fr 0.5fr;
+    grid-gap: 10px 5px;
+    height: 80vh;
+    width: 60vw;
+    margin: auto;
+    
+
+
+    grid-template-areas:
+    "header header header"
+    "hero main main"
+    "sidebar extra extra"
+    "images images posts"
+    "footer footer footer"
+}
+div {
+    text-align: center;
+}
+.header {
+    grid-area : header;
+    background-color: turquoise;
+}
+.hero {
+    grid-area : hero;
+    background-color: plum;
+
+}
+.main{
+    grid-area : main;
+    background-color: yellow;
+}
+.sidebar{
+    grid-area : sidebar;
+    background-color: greenyellow;
+}
+.extra{
+    grid-area : extra;
+    background-color: gray;
+}
+.images{
+    grid-area : images;
+    background-color: green;
+}
+.posts{
+    grid-area : posts;
+    background-color: pink;
+}
+.footer{
+    grid-area : footer;
+    background-color: orange;
+}
