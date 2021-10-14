@@ -13,7 +13,7 @@ function playTheGame() {
                     alert('The computer number is: ' + parseInt(computerNumber))
                 } else if (number > 10) {
                     alert('Sorry it’s not a good number, Goodbye')
-                } 
+                }
             } else {
                 alert(number + ' Sorry Not a number, Goodbye')
             }
@@ -21,14 +21,16 @@ function playTheGame() {
     }
 }
 
-function test(userNumber,computerNumber) {
-    if (userNumber === computerNumber){
+function test(userNumber, computerNumber) {
+    if (userNumber === computerNumber) {
         alert('Winner!')
     } else if (userNumber >= computerNumber) {
-        alert ('Your number is bigger then the computer’s, guess again')
-        playTheGame()
+
+        prompt('Your number is bigger then the computer’s, guess again')
+
     } else if (userNumber <= computerNumber) {
-        alert ('Your number is smaller then the computer’s, guess again')
-        playTheGame()
+
+        prompt('Your number is smaller then the computer’s, guess again')
+
     }
 }
