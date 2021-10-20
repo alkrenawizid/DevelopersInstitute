@@ -1,17 +1,11 @@
-// about the green box
-
 // 1. Retrieve the green box
 let item = document.getElementById("item");
-let item2 = document.getElementById("item2");
 
 item.addEventListener("dragstart", startDragging);
 
 function startDragging (event) {
 	console.log("start dragging", event.target.id);
 	event.target.classList.add("startDragging");
-	// console.log(event.dataTransfer)
-	// syntax
-	// event.dataTransfer.setData("type of data", id of the elem)
 	event.dataTransfer.setData("text/plain",event.target.id)
 }
 
@@ -59,6 +53,7 @@ function dragenter(event) {
 
 
 function dragleave(event) {
+	event.preventDefault();
     // reset background of potential drop target when the draggable element leaves it
     if ( event.target.className == "dropzone" ) {
         event.target.style.background = "";
