@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+  }
+  
+div {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #input {
+    width: 80vh;
+    height: 5vh;
+    margin: auto;
+    background: lightgrey;
+  }
+  
+  h3 {
+    border: 1px solid black;
+    width: 80vh;
+    margin: 30px auto;
+    height: 20vh;
+    background: lightsalmon;
+  }
+  
+  h1 {
+    margin: 0px auto 10px auto;
+    color: black;
+  }
+  
