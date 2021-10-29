@@ -13,3 +13,11 @@ let groceries = {
         meansOfPayment : ["cash", "creditCard"]
     }
 }
+
+let groceriesCopy = groceries
+console.log(groceriesCopy)
+
+groceries.totalPrice = "35$"
+console.log(groceries.totalPrice)
+groceries.payed = false
+console.log(groceries.payed)
