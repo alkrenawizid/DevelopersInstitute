@@ -22,11 +22,10 @@ let marioGame = {
     },
   }
 
-// const toObj = JSON.parse(marioGame);
-// console.log(toObj)
+
 
 const toJson = JSON.stringify(marioGame)
 console.log(toJson)
 
 const toJsonPretty = JSON.stringify(marioGame, null, 2)
-console.log(toJsonPretty) 
+console.log(toJsonPretty)
