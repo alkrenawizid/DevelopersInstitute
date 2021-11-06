@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+    text-align: center;
+    color: yellow;
+}
+.logo {
+    background: url("https://i.dlpng.com/static/png/253278_thumb.png") center center no-repeat;
+    margin: auto;
+    width: 450px;
+    height: 300px;
+}
+.container {
+    border: 3px solid yellow;
+    border-radius: 10px;
+    height: 320px;
+    width: auto;
+    margin-top: -20px;
+}
+#button {
+    border: 3px solid yellow;
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: medium;
+    font-weight: bold;
+}
+#name {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#height {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#gender {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#birth-year {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#home-world{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+p {
+    color: white;
+    font-size: 25px;
+}
