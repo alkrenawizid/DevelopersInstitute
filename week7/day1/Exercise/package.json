@@ -1,0 +1,17 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodemon app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZID",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
