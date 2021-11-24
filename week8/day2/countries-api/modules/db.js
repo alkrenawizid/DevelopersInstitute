@@ -12,8 +12,12 @@ const db = knex({
 })
 
 const getContries = () => {
-    return db('country').select('country_id','country').orderBy('country')
+    return db('country')
+    .select('country_id','country')
+    .orderBy('country')
 }
+
+
 
 module.exports = {
     getContries

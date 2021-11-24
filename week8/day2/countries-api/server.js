@@ -1,7 +1,7 @@
 const exp = require('express');
 const env = require('dotenv');
 const cors = require('cors');
-//import DB = require(`./modules/db`);
+const DB = require('./modules/db');
 
 env.config();
 
