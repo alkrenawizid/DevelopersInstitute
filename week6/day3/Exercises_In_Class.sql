@@ -66,25 +66,28 @@
 
 -- =====================
 
--- CREATE TABLE DEPARTMENT
--- (
---    DEPTCODE   INTEGER,
---    DeptName   CHAR(30),
---    LOCATION   VARCHAR(33)
--- );
+CREATE SEQUENCE serial_seq
+start 10
+increment 10;
+CREATE TABLE Department
+(
+   Deptcode   INTEGER PRIMARY KEY DEFAULT nextval('serial_seq'),
+   DeptName   CHAR(30),
+   Location   VARCHAR(33) UNIQUE
+);
 
--- CREATE TABLE EMPLOYEE
--- (
---    EmpCode      INTEGER,
---    EmpFName     VARCHAR(15),
---    EmpLName     VARCHAR(15),
---    Job          VARCHAR(45),
---    Manager      CHAR(4),
---    HireDate     DATE,
---    Salary       INTEGER,
---    Commission   INTEGER,
---    DEPTCODE     INTEGER
--- );
+CREATE TABLE EMPLOYEE
+(
+   EmpCode      INTEGER PRIMARY KEY,
+   EmpFName     VARCHAR(15) NOT NULL,
+   EmpLName     VARCHAR(15),
+   Job          VARCHAR(45),
+   Manager      CHAR(4),
+   HireDate     DATE,
+   Salary       DECIMAL DEFAULT 0,
+   Commission   INTEGER,
+   DEPTCODE     INTEGER 
+);
 
 
 -- STEPS:

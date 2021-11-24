@@ -21,4 +21,4 @@ const server = http.createServer((req, res) => {
     res.setHeader("Content-Type", "application/json");
     res.end(JSON.stringify(user));
 
-  }).listen(3000, () => console.log("i am listening")); 
+  }).listen(3000, () => console.log("i am listening"));

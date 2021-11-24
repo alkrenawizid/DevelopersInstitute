@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/circuit.png");
+    background-position: center;
+    height: 90vh;
+}
+#header{
+    background-color: rgba(42, 214, 42, 0.788);
+    display:flex;
+    height: 10vh;
+    padding: 5px 20px;
+    position:fixed;
+    width: 100%;
+    border-bottom: 5px solid lightslategrey;
+    
+}
+h1{
+    font-family: 'SEGA LOGO FONT', sans-serif;
+    font-weight: lighter;
+    margin:auto 2vw;                                              
+}
+#search{
+    height: 5vh;
+    margin: auto 2vw;
+    background: rgb(157, 144, 240);
+    border: none;
+    border-radius: 5px;
+    width:45vw;
+    font-size:1.2em;
+    
+}
+search::placeholder{
+    text-align:justify;
+}

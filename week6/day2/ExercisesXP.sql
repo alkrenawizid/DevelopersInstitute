@@ -94,6 +94,6 @@
 -- VALUES (1,1),
 -- (2,2),
 -- (3,3);
-select * from purchases;
+-- select * from purchases;
 
 
